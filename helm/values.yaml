@@ -1,11 +1,11 @@
 frontend:
   image: dowenliu/frontend
-  tag: 7016c5e
+  tag: bb46910
   autoscaling:
     averageUtilization: 90
 backend:
   image: dowenliu/backend
-  tag: 7016c5e
+  tag: bb46910
   autoscaling:
     averageUtilization: 90
 database:
