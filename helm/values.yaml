@@ -1,18 +1,15 @@
 frontend:
   image: dowenliu/frontend
-  tag: latest
+  tag: 7016c5e
   autoscaling:
     averageUtilization: 90
-
 backend:
   image: dowenliu/backend
-  tag: latest
+  tag: 7016c5e
   autoscaling:
     averageUtilization: 90
-
 database:
   enabled: true
   uri: pg-service
   username: postgres
   password: postgres
-
